@@ -1,0 +1,18 @@
+inputに画像とxmlファイルを入れる
+anacondaのdeeplearningのターミナルを開く
+pyhonでaugment.pyを実行
+
+
+拡張の倍数は
+bounding-box-augmentation-master\augment.pyの中の
+AUGMENT_SIZE =
+で決定することができる
+
+
+後で，xmlをtxtに変換すること
+change_xml_to_txtを使うとできる
+
+
+パラメータの変更は
+bounding-box-augmentation-master\util
+のsequence.pyを変更
